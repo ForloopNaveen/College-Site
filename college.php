@@ -24,7 +24,7 @@
     </section>
 
     <!-- About Us Section -->
-    <section class="course">
+      <section class="course">
       <h1>Colleges To Choose</h1>
       <p>Explore a wide variety of academy to your future!</p>
       <section class="search-bar">
@@ -63,7 +63,7 @@
               $starCount = $row['star']; 
               for ($i = 0; $i < $starCount; $i++) {
                   echo '<img src="images/star_icon.png" alt="Star" style="width: 20px; height: 20px; margin-right: 5px;">';
-              }
+              }   
               ?>
             </div>
           </div>
@@ -90,7 +90,7 @@
       <div class="icons">
         <i class="bx bxl-facebook-circle"></i>
         <i class="bx bxl-twitter"></i>
-        <i class="bx bxl-instagram"></i>
+        <i class="bx bxl-instagram"></i>  
         <i class="bx bxl-linkedin-square"></i>
       </div>
       <p>Made with by <i class="bx bx-heart"></i> NK</p>
